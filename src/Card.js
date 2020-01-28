@@ -2,6 +2,9 @@ import React from 'react';
 import './Card.css';
 
 export default function Card(props) {
+  // if(typeof props.title !== 'string'|| typeof props.content !== 'string'  ) {
+  //   throw new Error('Must be a string');
+  // }
   return (
     <div className='Card'>
       <button type='button'>
